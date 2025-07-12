@@ -1,10 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Telstra from './pages/Telstra';
-
 
 function App() {
     return (
-        <Router basename="/resume">
+        <Router>
             <Routes>
                 <Route path="/telstra" element={<Telstra />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
