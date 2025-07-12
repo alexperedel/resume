@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Telstra from './pages/Telstra';
 import Optus from "./pages/Optus";
+import JbHiFi from "./pages/JbHiFi";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Routes>
                 <Route path="/telstra" element={<Telstra />} />
                 <Route path="/optus-letter" element={<Optus />} />
+                <Route path="/jbhifi" element={<JbHiFi />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
