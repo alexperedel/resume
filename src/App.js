@@ -6,6 +6,7 @@ import Travelex from "./pages/Travelex";
 import JoTraikos from "./pages/JoTraikos";
 import Petbarn from "./pages/Petbarn";
 import Armani from "./pages/Armani";
+import CalvinKlein from "./pages/CalvinKlein";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/jotraikos" element={<JoTraikos />} />
                 <Route path="/petbarn" element={<Petbarn />} />
                 <Route path="/armani" element={<Armani />} />
+                <Route path="/calvinklein" element={<CalvinKlein />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
