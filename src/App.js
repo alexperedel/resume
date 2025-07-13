@@ -5,6 +5,7 @@ import JbHiFi from "./pages/JbHiFi";
 import Travelex from "./pages/Travelex";
 import JoTraikos from "./pages/JoTraikos";
 import Petbarn from "./pages/Petbarn";
+import Armani from "./pages/Armani";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/travelex" element={<Travelex />} />
                 <Route path="/jotraikos" element={<JoTraikos />} />
                 <Route path="/petbarn" element={<Petbarn />} />
+                <Route path="/armani" element={<Armani />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
