@@ -9,6 +9,7 @@ import Armani from "./pages/Armani";
 import CalvinKlein from "./pages/CalvinKlein";
 import WildRhino from "./pages/WildRhino";
 import Gazman from "./pages/Gazman";
+import Salvos from "./pages/Salvos";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/calvinklein" element={<CalvinKlein />} />
                 <Route path="/wildrhino" element={<WildRhino />} />
                 <Route path="/gazman" element={<Gazman />} />
+                <Route path="/salvos" element={<Salvos />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
