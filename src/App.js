@@ -8,6 +8,7 @@ import Petbarn from "./pages/Petbarn";
 import Armani from "./pages/Armani";
 import CalvinKlein from "./pages/CalvinKlein";
 import WildRhino from "./pages/WildRhino";
+import Gazman from "./pages/Gazman";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/armani" element={<Armani />} />
                 <Route path="/calvinklein" element={<CalvinKlein />} />
                 <Route path="/wildrhino" element={<WildRhino />} />
+                <Route path="/gazman" element={<Gazman />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
