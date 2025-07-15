@@ -12,6 +12,7 @@ import Gazman from "./pages/Gazman";
 import Salvos from "./pages/Salvos";
 import Subiaco from "./pages/Subiaco";
 import Herdsman from "./pages/Herdsman";
+import Ticketmaster from "./pages/Ticketmaster";
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/salvos" element={<Salvos />} />
                 <Route path="/subiacorestoration" element={<Subiaco />} />
                 <Route path="/herdsmanmarket" element={<Herdsman />} />
+                <Route path="/ticketmaster" element={<Ticketmaster />} />
                 <Route path="*" element={<h1>404: Page Not Found</h1>} />
             </Routes>
         </Router>
