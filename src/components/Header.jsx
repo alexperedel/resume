@@ -7,7 +7,7 @@ const Header = () => {
             </header>
 
             {/* Dark slate gray separator */}
-            <div className="w-full max-w-3xl h-1 mt-6 bg-gray-700 rounded-full px-6" />
+            <div className="w-full max-w-3xl h-1 my-6 bg-gray-700 rounded-full px-3" />
         </div>
     );
 };

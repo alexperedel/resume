@@ -5,11 +5,11 @@ const About = () => {
                 About Me
             </h2>
             <p className="text-gray-900 leading-relaxed whitespace-pre-line text-base sm:text-lg tracking-wide px-2 sm:px-0 max-w-prose mx-auto">
-                {`I enjoy working in fast-paced environments where teamwork and customer connection matter most.
+                {`I enjoy working in dynamic, collaborative environments where problem-solving and innovation drive success.
 
-With experience in retail and a tech background, I like finding practical solutions and helping create a smooth, friendly customer experience.
+                  With a foundation in programming and practical experience working alongside software teams, I’m passionate about creating efficient, user-friendly solutions.
 
-Always eager to learn and grow, I’m ready to bring energy and focus to a role where I can make a real impact.`}
+                  Always eager to learn and grow, I bring energy, focus, and a growth mindset to every challenge, aiming to make a meaningful impact through technology.`}
             </p>
         </section>
     )
